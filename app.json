@@ -1,0 +1,79 @@
+{
+  "pages": [
+   
+    "pages/home/home",
+    "pages/cart1/cart1",
+    "pages/goods/goods",
+    "pages/classify/classify",
+    "pages/brand/brand",
+    "pages/classifyGoods/classifyGoods",
+    "pages/test/test",
+    "pages/actives/actives",
+    "pages/introduction/introduction",
+    "pages/register/register",
+    "pages/register_name/register_name",
+    "pages/register_telphone/register_telphone",
+    "pages/register_password/register_password",
+    "pages/basicInfo/basicInfo",
+    "pages/basicInfo_workunit/basicInfo_workunit",
+    "pages/basicInfo_school/basicInfo_school",
+    "pages/basicInfo_postal/basicInfo_postal",
+    "pages/basicInfo_zipcode/basicInfo_zipcode",
+    "pages/basicInfo_email/basicInfo_email",
+    "pages/serviceInfo/serviceInfo",
+    "pages/serviceInfo_organization/serviceInfo_organization",
+    "pages/serviceInfo_skilldes/serviceInfo_skilldes",
+    "pages/serviceInfo_scope/serviceInfo_scope",
+    "pages/identityInfo/identityInfo",
+    "pages/detail/detail",
+    "pages/discover/discover",
+    "pages/discoverInfo/discoverInfo",
+    "pages/protocolInfo/protocolInfo",
+    "pages/qrcode/qrcode",
+    "pages/certificateInfo/certificateInfo",
+    "pages/activityRecord/activityRecord",
+    
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "萧山时间银行",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#DCDCDC"
+  },
+  "tabBar": {
+    "color": "#3F3F3F",
+    "selectedColor": "#f0145a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "images/exchange.png",
+        "selectedIconPath": "images/exchange_select.png",
+        "text": "兑换"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "images/find.png",
+        "selectedIconPath": "images/find_select.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine_select.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
